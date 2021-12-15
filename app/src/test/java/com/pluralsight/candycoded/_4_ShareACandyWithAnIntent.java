@@ -2,7 +2,6 @@ package com.pluralsight.candycoded;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
 import org.junit.BeforeClass;
@@ -21,6 +20,8 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 
 //@FixMethodOrder(MethodSorters.NAME_ASCENDING)
